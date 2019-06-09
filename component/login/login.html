@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./../../common/js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./js/login.js"></script>
+    <link rel="stylesheet" href="./css/login.css">
+    <title>登录</title>
+</head>
+<body>
+    <div id="login-container">
+        <nav>
+            <div class="nav-text">登录</div>
+        </nav>
+        <section class="telephone">
+            <img class="telephone-img" src="./images/ic_phone.png"/>
+            <input class="telephone-input" placeholder="请输入手机号" />
+            <button class="verify-code-send-btn" onclick="sendVerifyCode()">发送验证码</button>
+        </section>
+        <div class="error telephoneError">
+            <p>手机号格式错误</p>
+        </div>
+        <section class="verify-code">
+            <img class="email" src="./images/ic_message.png"/>
+            <input class="verify-code-input" />
+            <img class="close" src="./images/btn_ic_close.png" onclick="clearVerifyCode()"/>
+        </section>
+        <div class="error verifyCodeError">
+            <p>输入验证码错误</p>
+        </div>
+        <div class="login-commit">
+            <button class="login-btn" onclick="login()">登录</button>
+        </div>
+        <div class="tip">
+            <span class="tooltip">注册/登录即标识您已阅读，并同意以下协议：<a class="protocol" href="">《哆米任务平台用户服务协议》</a></span>
+        </div>
+    </div>
+</body>
+</html>

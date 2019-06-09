@@ -1,0 +1,127 @@
+#login-container {
+    width: 750px;
+    margin: 0 auto;
+}
+nav {
+    height: 149px;
+    line-height: 149px;
+    text-align: center;
+    font-family: 'SimHei';
+    margin-left: auto;
+    margin-right: auto;
+    background: url('./../images/Top-Bar.png');
+}
+.nav-text {
+    font-size: 30px;
+}
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 686px;
+    border-bottom: 2px solid #e9e9e9;
+}
+section input {
+    border: none;
+    margin-bottom: 20px;
+}
+section input:focus {
+    outline: none;
+    border: none;
+}
+section img:first {
+    float: left;
+    margin-left: 32px;
+}
+section img:last-child {
+    float: right;
+    cursor: pointer;
+    padding-top: 10px;
+}
+section button {
+    border: none;
+    background: transparent;
+}
+section button:focus {
+    outline: none;
+    border: none;
+}
+section button:hover {
+    cursor: pointer;
+}
+.telephone {
+    margin-top: 200px;
+}
+.telephone-input {
+    margin-left: 23px;
+    width: 460px;
+    font-size: 30px;
+    font-family: 'SourceHanSansCN light';
+    color: #999999;
+}
+.verify-code {
+    margin-top: 111px;
+}
+.verify-code-send-btn {
+    float: right;
+    font-family: 'SourceHanSansCN light';
+    font-size: 26px;
+    color: #333333;
+}
+.verify-code-input {
+    margin-left: 23px;
+    width: 460px;
+    font-size: 30px;
+    font-family: 'SourceHanSansCN light';
+    color: #999999;
+}
+.error {
+    margin-left: auto;
+    margin-right: auto;
+    width: 686px;
+    margin-top: 13px;
+    font-family: 'SourceHanSansCN Nomal';
+    font-size: 20px;
+    color: #F20201;
+}
+.telephoneError {
+    visibility: hidden;
+}
+.verifyCodeError {
+    visibility: hidden;
+}
+.login-btn {
+    outline: none;
+    margin-top: 212px;
+    width: 698px;
+    height: 100px;
+    margin-left: 26px;
+    margin-right: 26px;
+    font-size: 36px;
+    font-family: 'SourceHanSansCN light';
+    color: #FFFFFF;
+    background-color: #FFD39B;
+    border: 1px solid #FFD39B;
+    border-radius: 50px;
+}
+.login-commit button:hover {
+    background-color: #ff6633;
+    cursor: pointer;
+} 
+.tip {
+    width: 698px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tooltip {
+    font-family: 'SourceHanSansCN Nomal';
+    font-size: 20px;
+    color: #999999;
+
+}
+.protocol {
+    color: #333333;
+}
+.tooltip a {
+    text-decoration: none;
+}
