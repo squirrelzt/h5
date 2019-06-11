@@ -1,0 +1,196 @@
+nav {
+    height: 424px;
+}
+.personal-head {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.personal-head img:first-child {
+    margin-left: 32px;
+    float: left;
+    padding-top: 12px;
+}
+.personal-head img:last-child {
+    float: right;
+    margin-right: 32px;
+}
+.personal-head span {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "SourceHanSansCN Medium";
+    font-size: 30px;
+}
+.nav-content {
+    margin-left: 32px;
+    margin-right: 32px;
+    padding-top: 80px;
+}
+.avatar {
+    float: left;
+}
+.user {
+    float: left;
+    margin-left: 24px;
+    margin-top: 10px;
+}
+.username {
+    font-family: 'SourceHanSansCN Medium';
+    font-size: 36px;
+}
+.invitation-code {
+    font-family: 'SourceHanSansCN Regular';
+    margin-top: 24px;
+    font-size: 24px;
+}
+.copy {
+    float: right;
+    line-height: 128px;
+}
+.copy-button {
+    width: 128px;
+    height: 48px;
+    font-family: 'SourceHanSansCN light';
+    background-color: #FFFFFF;
+    border: 1px solid #ff3300;
+    color: #ff3300;
+    font-size: 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
+.summary {
+    margin-top: 185px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 686px;
+    height: 160px;
+    background-color: #FFFFFF;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+.my-balance {
+    float: left;
+    text-align: center;
+    width: 50%;
+    margin-top: 40px;
+}
+.count {
+    font-family: 'ArialMT Regular';
+    font-size: 24px;
+    color: #F8340F;
+}
+.tooltip {
+    margin-top: 10px;
+    font-family: 'SourceHanSansCN Normal';
+    font-size: 24px;
+    color: #333333;
+}
+.divisor {
+    /* position: fixed; */
+    float: left;
+    left: 50%;
+    margin-top: 40px;
+}
+.divisor-img {
+    height: 80px;
+    line-height: 80px;
+    width: 1px;
+}
+.my-team {
+    margin-top: 40px;
+    text-align: center;
+}
+.join {
+    width: 712px;
+    height: 138px;
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.join-container {
+    width: 686px;
+    height: 138px;
+    margin: 0 auto;
+    text-align: center;
+    background: #FF7F50;
+    border-radius: 100px;
+}
+.join-content {
+    float: left;
+    margin-left: 32%;
+}
+.join-content1 {
+    padding-top: 30px;
+    color: #FFFFFF;
+    font-family: 'SourceHanSansCN Normal';
+    font-size: 30px;
+    font-weight: bold;
+}
+.join-content2 {
+    background-color: #FFB90F;
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.join-opt {
+    float: right;
+    height: 80px;
+    width: 80px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.join-btn {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #FFB90F;
+    border: 1px solid #FFC125;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.personal-center {
+    width: 686px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    height: 87px;
+    line-height: 87px;
+    border-bottom: 1px solid #e5e5e5;
+}
+section img:first-child {
+    float: left;
+    margin-top: 30px;
+}
+section img:last-child {
+    float: right;
+    margin-top: 31px;
+}
+section span {
+    margin-left: 24px;
+    font-family: "SourceHanSansCN Normal";
+    font-size: 28px;
+    color: #333333;
+}
+.logout {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 686px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #F8340F;
+    border: 1px solid #F8340F;
+    font-family: "SourceHanSansCN Normal";
+    font-size: 28px;
+    color: #FFFFFF;
+    letter-spacing: 5px;
+}
